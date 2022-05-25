@@ -6,6 +6,7 @@ import 'package:medi_fypp/p.auth/p.signup.dart';
 import 'package:medi_fypp/screens/HomePage.dart';
 
 import '../constants.dart';
+import '../lib/home_patien.dart';
 import '../lib/hommmmpage.dart';
 
 class PatientSignIn extends StatelessWidget {
@@ -148,7 +149,7 @@ void signInPatient(email, pass, BuildContext context) async {
     final credential = await FirebaseAuth.instance
         .signInWithEmailAndPassword(email: email, password: pass);
     Navigator.pushAndRemoveUntil(context,
-        MaterialPageRoute(builder: (_) => HomePageeee()), (route) => false);
+        MaterialPageRoute(builder: (_) => HomePaien()), (route) => false);
   } on FirebaseAuthException catch (e) {
     if (e.code == 'user-not-found') {
       print('No user found for that email.');
