@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">505343091443-3h839qji5c02vtqn74hghsl45reos6ah.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">505343091443</string>
+    <string name="google_api_key" translatable="false">AIzaSyANh5FTENSJ4Z7qBWcrcSFPIovK6gxX-TY</string>
+    <string name="google_app_id" translatable="false">1:505343091443:android:271f4c4712d43c823e0d86</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyANh5FTENSJ4Z7qBWcrcSFPIovK6gxX-TY</string>
+    <string name="google_storage_bucket" translatable="false">medi-fyp.appspot.com</string>
+    <string name="project_id" translatable="false">medi-fyp</string>
+</resources>

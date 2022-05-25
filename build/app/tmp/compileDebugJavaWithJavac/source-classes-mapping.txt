@@ -1,0 +1,6 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/example/medi_fypp/BuildConfig.java
+ com.example.medi_fypp.BuildConfig
+io/flutter/app/FlutterMultiDexApplication.java
+ io.flutter.app.FlutterMultiDexApplication
